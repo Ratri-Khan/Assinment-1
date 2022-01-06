@@ -1,5 +1,6 @@
 body{margin:0;font-family: 'Poppins', sans-serif;
-font-family: sans-serif;}
+font-family: sans-serif;
+background-color: rgb(255 230 230 / 55%);}
 h1{font-size: 40px;}
 .FocusedSection{
    width: 100%;
@@ -11,7 +12,6 @@ h1{font-size: 40px;}
     margin-top: 70px;
 }
 .aboutMe img{width: 70%;}
-.FocusedSection{background-color: rgb(255, 194, 179);}
 .dddd {
     border-left: 4px solid;
     border-image: linear-gradient(rgb(153, 51, 0),rgb(204, 102, 0));
@@ -33,3 +33,32 @@ a.exploreMenu {
 }
 .doSomething{margin-bottom: 25px;}
 .wwww{margin-top:35px ;}
+/*gggggggggggggg*/
+.conteiner{
+    width: 100%;
+    display: flex;
+    margin-left: 6%;
+}
+.missionIcon{width:50%}
+span.yearColor {
+    color: rgb(153, 51, 0);
+}
+h1#missionHeading {
+    text-align: center;
+}
+.missionPart {
+    padding-left: 20px;
+    margin-left: 20px;
+    width: 25%;
+    border-radius: 15px;
+}
+div#missionpart1 {
+    background-color: rgb(179, 255, 255);
+}
+div#missionpart2 {
+    background-color: rgb(230, 255, 255);
+}
+div#missionpart3 {
+    background-color: rgb(255, 255, 255);
+}
+/*ddddddddddddddd*/
