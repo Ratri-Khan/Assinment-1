@@ -37,7 +37,7 @@ a.exploreMenu {
 .conteiner{
     width: 100%;
     display: flex;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 .missionIcon{width:50%}
 span.yearColor {
@@ -48,8 +48,8 @@ h1#missionHeading {
 }
 .missionPart {
     padding-left: 20px;
-    margin-left: 20px;
-    width: 25%;
+    margin-left: 40px;
+    width: 20%;
     border-radius: 15px;
 }
 div#missionpart1 {
@@ -69,4 +69,12 @@ div#missionpart3 {
 }
 h1.developHeading {
     margin: 0;
+}
+/*gggggggggg*/
+h1.communityHeading {
+    margin: 0;
+}
+img.communituImg {
+    width: 80%;
+    border-radius: 15px;
 }
