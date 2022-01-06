@@ -1,80 +1,90 @@
-body{margin:0;font-family: 'Poppins', sans-serif;
-font-family: sans-serif;
-background-color: rgb(255 230 230 / 55%);}
+body{margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
+    background-color: rgb(255 230 230 / 55%);}
+
 h1{font-size: 40px;}
+
 .FocusedSection{
    width: 100%;
    display: flex;}
 
-.aboutMe{
+.focusedPart{
     width: 40%;
     padding-left: 8%;
-    margin-top: 70px;
-}
-.aboutMe img{width: 70%;}
-.dddd {
+    margin-top: 70px;}
+
+.focusedPart img{width: 70%;}
+.focusedHeading {
     border-left: 4px solid;
     border-image: linear-gradient(rgb(153, 51, 0),rgb(204, 102, 0));
-border-image-slice: 1;
-    height: 100px;
-}
-.dddd h1{margin: 0;
+    border-image-slice: 1;
+    height: 100px;}
+
+.focusedHeading h1{
+    margin: 0;
     padding-left: 13px;}
-h1.rrrr {
-        color: rgb(153, 51, 0);
-}
+
+h1.focusedYear {color: rgb(153, 51, 0);}
+
 a.exploreMenu {
     text-decoration: none;
     border: 1px solid;
     padding: 10px;
     color: #fff;
     background-color: rgb(153, 51, 0);
-    border-radius: 6px;
-}
+    border-radius: 6px;}
+
 .doSomething{margin-bottom: 25px;}
-.wwww{margin-top:35px ;}
-/*gggggggggggggg*/
+.explorePera{margin-top:35px ;}
+
 .conteiner{
     width: 100%;
     display: flex;
-    margin-left: 10%;
-}
+    margin-left: 10%;}
+
 .missionIcon{width:50%}
 span.yearColor {
-    color: rgb(153, 51, 0);
-}
+    color: rgb(153, 51, 0);}
 h1#missionHeading {
-    text-align: center;
-}
+    text-align: center;}
 .missionPart {
     padding-left: 20px;
     margin-left: 40px;
     width: 20%;
-    border-radius: 15px;
-}
+    border-radius: 15px;}
 div#missionpart1 {
-    background-color: rgb(179, 255, 255);
-}
+    background-color: rgb(179, 255, 255);}
 div#missionpart2 {
-    background-color: rgb(230, 255, 255);
-}
+    background-color: rgb(230, 255, 255);}
 div#missionpart3 {
-    background-color: rgb(255, 255, 255);
-}
-/*ddddddddddddddd*/
+    background-color: rgb(255, 255, 255);}
+
 .developsection{display: flex;}
 .developConteiner {
     width: 40%;
-    margin-top: 120px;
-}
+    margin-top: 120px;}
+
 h1.developHeading {
-    margin: 0;
-}
-/*gggggggggg*/
+    margin: 0;}
+
 h1.communityHeading {
-    margin: 0;
-}
+    margin: 0;}
+
 img.communituImg {
     width: 80%;
-    border-radius: 15px;
+    border-radius: 15px;}
+
+.fottersection{
+    background-color: black;}
+
+.fottercontain h2{color: blanchedalmond;
+    margin:0;padding-top: 20px;
+    text-align: center;}
+
+.fottercontain p {
+    padding-bottom:35px;
+    color: blanchedalmond;
+    font-size: 10px;
+    text-align: center;
 }
