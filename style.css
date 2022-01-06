@@ -54,11 +54,11 @@ h1#missionHeading {
     width: 20%;
     border-radius: 15px;}
 div#missionpart1 {
-    background-color: rgb(179, 255, 255);}
+    background-color: rgb(153 51 0 / 91%);}
 div#missionpart2 {
-    background-color: rgb(230, 255, 255);}
+    background-color:rgb(255, 153, 102);}
 div#missionpart3 {
-    background-color: rgb(255, 255, 255);}
+    background-color: rgb(255, 153, 102);}
 
 .developsection{display: flex;}
 .developConteiner {
@@ -74,6 +74,22 @@ h1.communityHeading {
 img.communituImg {
     width: 80%;
     border-radius: 15px;}
+.contactHading{text-align: center;} 
+.contactForm {
+    padding: 0px 0px 70px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 38%;}
+#contactId{width: 300px;
+    border: 1px solid;
+    border-color: rgb(153, 51, 0);
+    box-shadow: 6px 6px 20px #993300;}
+.submitButton{ 
+    border: 1px solid;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(153, 51, 0);
+    border-radius: 6px;}
 
 .fottersection{
     background-color: black;}
